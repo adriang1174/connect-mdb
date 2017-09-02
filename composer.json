@@ -1,0 +1,10 @@
+{
+	"name": "adriang1174/connectMDB",
+    "description": "PDO classes adapted to connect Access MDB databases",
+    "require": {
+        "php": "^5.3.3 || ^7.0"
+    },
+    "autoload": {
+        "files": ["DB.php","config.php","IDataBase.php","PDO.php"]
+    }
+}
