@@ -310,7 +310,7 @@ abstract class Ftl_IDataBase {
 
 
         //Funciones de agregado
-        public function max( $table, $where=null, $column="*" )
+        public function max( $table, $where=null, $="*" )
         {
             $sql = "select max($column) from $table " . ( $where ? " where $where " : "");
             return $this->fetchVal( $sql );
