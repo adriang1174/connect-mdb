@@ -1,5 +1,5 @@
 {
-	"name": "adriang1174/connectMDB",
+	"name": "adriang1174/connect-mdb",
     "description": "PDO classes adapted to connect Access MDB databases",
     "require": {
         "php": "^5.3.3 || ^7.0"
